@@ -1,0 +1,1 @@
+int main() {    int x = 10;    int *ptr = &x;    *ptr = 20;    int y = *ptr;    printf("%d\n", y); // Output: 20    //Do not use free() for the variable x that was not allocated in the heap    return 0; }
