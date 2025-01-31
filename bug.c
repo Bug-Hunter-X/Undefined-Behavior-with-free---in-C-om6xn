@@ -1,0 +1,1 @@
+int main() {    int x = 10;    int *ptr = &x;    *ptr = 20;    int y = *ptr;    printf("%d\n", y); // Output: 20    free(ptr); // Undefined behavior: freeing memory not allocated with malloc  return 0; }
